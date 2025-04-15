@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "es2022",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "lib": ["dom", "es2022"],
+    "types": []
+  },
+  "include": ["*.ts"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gem Fusion - Match-3 Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Background particles -->
+<div class="particles" id="particles"></div>
+
+<div class="game-container">
+    <h1>Gem Fusion</h1>
+    <div class="score-container">
+        <span class="score-label">Score:</span>
+        <span class="score-value" id="score">0</span>
+    </div>
+
+    <div class="game-controls">
+        <div class="mode-selector">
+            <div class="mode-buttons">
+                <button class="mode-btn active" data-mode="classic">Classic</button>
+                <button class="mode-btn" data-mode="exact3">Exact 3</button>
+                <button class="mode-btn" data-mode="exact4">Exact 4</button>
+                <button class="mode-btn" data-mode="exact5">Exact 5</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="canvas-container"></div>
+    <div class="instructions">
+        Swap adjacent gems to create matches of 3 or more.<br>
+        <span id="mode-instructions">Classic mode: Any matches of 3+ gems count.</span>
+    </div>
+</div>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
