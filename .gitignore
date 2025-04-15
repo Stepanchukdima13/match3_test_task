@@ -1,4 +1,5 @@
 dist
 .qodo
+node_modules
 script.js
 types.js
